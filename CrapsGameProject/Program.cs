@@ -14,8 +14,7 @@ namespace Craps {
 			Debug($"You rolled {Roll}");
 			return Roll;
 		}
-		int Game(y
-			) {
+		int Game() {
 			//First Roll
 			int Dice = DiceRoll();
 			if (Dice == 7 || Dice == 11) {
